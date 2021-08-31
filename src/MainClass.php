@@ -221,4 +221,4 @@ public function risultato($name) {
 	$output=$_POST["$name"];
 	return $output;
 }
-
+}
