@@ -8,8 +8,8 @@ Inoltre, HPB semplifica drasticamente tutte le funzioni complesse di PHP (per es
 
 ## Installazione
 ### Windows
-Per installare **HPB** su ~~Winzoz~~ Windows basterà creare il file `loader.php` e copiare all'interno di esso il contenuto della seguente pagina:
-https://s1.fcosma.it/API/HPB/latest.phar
+Per installare **HPB** su Windows basterà scaricare il file `hpb.phar` da questo URL:
+https://s1.fcosma.it/API/HPB/aw?do=download&pkg=phar
 
 ### Linux
 Per installare **HPB** su Linux basterà usare wget
@@ -18,8 +18,8 @@ wget https://s1.fcosma.it/API/HPB/latest.phar
 ```
 
 ### MacOS
-Per installare **HPB** su MacOS basterà creare il file `loader.php` e copiare all'interno di esso il contenuto della seguente pagina:
-https://s1.fcosma.it/API/HPB/latest.phar
+Per installare **HPB** su MacOS basterà scaricare il file `hpb.phar` da questo URL:
+https://s1.fcosma.it/API/HPB/aw?do=download&pkg=phar
 
 ## Inclusione nella pagina
 Per includere il file HPB nella pagina web basterà fare
