@@ -32,6 +32,6 @@ require_once("latest.phar");
 HPB è completamente in italiano in modo da facilitare l'utenza
 ### Documentazione esauriente
 HPB possiede una documentazione esauriente e dettagliata in modo da aiutare l'utenza durante la stesura del codice
-https://api.fcosma.it/API/HPB/redi?v=9
+https://dev.hpbdev.cf/docs/base
 ### Open Source
 Il codice di HPB è completamente __open source__ pertanto è possibile visualizzarlo, modificarlo e fare delle pull request
