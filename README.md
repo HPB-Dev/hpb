@@ -9,17 +9,17 @@ Inoltre, HPB semplifica drasticamente tutte le funzioni complesse di PHP (per es
 ## Installazione
 ### Windows
 Per installare **HPB** su Windows basterà scaricare il file `hpb.phar` da questo URL:
-https://s1.fcosma.it/API/HPB/aw?do=download&pkg=phar
+https://api.hpbdev.cf/getHPB/
 
 ### Linux
 Per installare **HPB** su Linux basterà usare wget
 ```
-wget https://s1.fcosma.it/API/HPB/latest.phar
+wget https://api.hpbdev.cf/getHPB/hpb.phar
 ```
 
 ### MacOS
 Per installare **HPB** su MacOS basterà scaricare il file `hpb.phar` da questo URL:
-https://s1.fcosma.it/API/HPB/aw?do=download&pkg=phar
+https://api.hpbdev.cf/getHPB/
 
 ## Inclusione nella pagina
 Per includere il file HPB nella pagina web basterà fare
