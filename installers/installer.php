@@ -11,8 +11,8 @@ if ($s == "n") {
 echo "\n\nOk, continuiamo con l'installazione!";
 echo "Che versione di HPB vuoi installare?";
 echo "Per saperne di piu': https://dev.hpbdev.cf/news/06-09-2021-01";
-echo "[N] -> Versione Normale");
-echo "[C] -> Versione Compatta");
+echo "[N] -> Versione Normale";
+echo "[C] -> Versione Compatta";
 $v = readline("Ok, inserisci la versione: ");
 if ($v != "N" && $v != "C") {
   die("\n\nHey! hai inserito una versione sbagliata!\n");
