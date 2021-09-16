@@ -7,24 +7,15 @@ HPB permette anche all'utenza alle prime armi con PHP ad avvicinarsi ad esso, me
 Inoltre, HPB semplifica drasticamente tutte le funzioni complesse di PHP (per esempio la connessione a un DB MySQL)
 
 ## Installazione
-### Windows
-Per installare **HPB** su Windows basterà scaricare il file `hpb.phar` da questo URL:
-https://api.hpbdev.cf/getHPB/
+Per installare **HPB** basterà scaricare il file `hpb-latest.zip` da questo URL:
+https://hpbdev.cf/download
+NOTA: se sei su Linux puoi utilizzare wget con `wget https://hpbdev.cf/assets//getFile`
 
-### Linux
-Per installare **HPB** su Linux basterà usare wget
-```
-wget https://api.hpbdev.cf/getHPB/hpb.phar
-```
-
-### MacOS
-Per installare **HPB** su MacOS basterà scaricare il file `hpb.phar` da questo URL:
-https://api.hpbdev.cf/getHPB/
 
 ## Inclusione nella pagina
 Per includere il file HPB nella pagina web basterà fare
 ```php
-require_once("latest.phar");
+require_once("autoload.php");
 ```
 
 ## Caratteristiche
@@ -35,3 +26,6 @@ HPB possiede una documentazione esauriente e dettagliata in modo da aiutare l'ut
 https://dev.hpbdev.cf/docs/base
 ### Open Source
 Il codice di HPB è completamente __open source__ pertanto è possibile visualizzarlo, modificarlo e fare delle pull request
+
+## Assistenza
+Per ricevere assistenza scrivere su Discord a **`FoxWorn#7933`** oppure all'email `hpb@public.fcosma.it`
