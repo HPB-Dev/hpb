@@ -168,7 +168,7 @@ public function sessione_definisci($nome, $value) {
 
 // Recuperare una sessione
 public function sessione_recupera($nome) {
-	$output=$_SESSION["nome"];
+	$output=$_SESSION[$nome];
 	return $output;
 }
 
@@ -212,13 +212,13 @@ public function includi($file) {
 
 // URL
 public function url($name) {
-	$output=$_GET["$name"];
+	$output = $_GET[$name];
 	return $output;
 }
 
 // Form
-public function risultato($name) {
-	$output=$_POST["$name"];
+public function form($name) {
+	$output = $_POST[$name];
 	return $output;
 }
 }
