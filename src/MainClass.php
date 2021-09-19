@@ -23,7 +23,7 @@ namespace hpb;
 
 class Main{
 // Plugin Loader
-public function plugin($type, $name) {
+private function plugin($type, $name) {
 	if ($type == "carica") {
 		copy("plugins/$name.hpb", "plugins/.temp_$name.php");
 		include("plugins/.temp_$name.php");
