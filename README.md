@@ -17,7 +17,15 @@ Per includere il file HPB nella pagina web basterà fare
 ```php
 require_once("autoload.php");
 ```
-
+Poi sarà necessario selezionare le varie classi
+```php
+use hpb\Main;
+```
+Ed infine vanno avviate
+```php
+$hpb = new Main();
+```
+[Lista completa delle classi](https://dev.hpbdev.cf/docs/pacchetti/)
 ## Caratteristiche
 ### Codice in italiano
 HPB è completamente in italiano in modo da facilitare l'utenza
